@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <append xpath="/ui_display_info/item_display/item_display_info[@display_group='groupMelee' or @display_group='groupRanged']">
+	  <display_entry name="254" title_key="statCriticalRate" display_type="Percent" tags="perkCriticalRate"/>
+  </append>
+</configs>
