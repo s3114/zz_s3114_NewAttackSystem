@@ -1,7 +1,9 @@
 <configs>
-<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel/grid[@cols=8]/@cols">150</set>
-<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel/grid[@cell_height=43]/@cell_height">30</set>
-<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel/grid[@cell_width=43]/@cell_width">30</set>
+<!-- windowSkillList のデフォルトXMLは 7dtd_default_data/Config/XUi_InGame/windows.xml にある構造（categoryHeader直下にgrid name="categories"）を前提に修正する -->
+<set xpath="/windows/window[@name='windowSkillList']/rect[@name='content']/rect[@name='categoryHeader']/rect[@pos='3,-3']/grid[@name='categories']/@cols">150</set>
+<set xpath="/windows/window[@name='windowSkillList']/rect[@name='content']/rect[@name='categoryHeader']/rect[@pos='3,-3']/grid[@name='categories']/@cell_height">30</set>
+<set xpath="/windows/window[@name='windowSkillList']/rect[@name='content']/rect[@name='categoryHeader']/rect[@pos='3,-3']/grid[@name='categories']/@cell_width">30</set>
+
 
 <remove xpath="/windows/window[@name='itemInfoPanel']" />
 
