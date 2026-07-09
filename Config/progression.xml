@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configs>
     <append xpath="/progression/attributes">
-        <attribute name="attSpecialSkills" name_key="attSpecialSkillsName" desc_key="attSpecialSkillsDesc" icon="icon_special_skills">
-            <level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="5" desc_key="reqPlayerLevel05"/></level_requirements>
-            <level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="10" desc_key="reqPlayerLevel10"/></level_requirements>
-            <level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
-            <level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="20" desc_key="reqPlayerLevel20"/></level_requirements>
-            <level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="25" desc_key="reqPlayerLevel25"/></level_requirements>
-            <level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="30" desc_key="reqPlayerLevel30"/></level_requirements>
-            <level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="35" desc_key="reqPlayerLevel35"/></level_requirements>
-            <level_requirements level="8"><requirement name="PlayerLevel" operation="GTE" value="40" desc_key="reqPlayerLevel40"/></level_requirements>
-            <level_requirements level="9"><requirement name="PlayerLevel" operation="GTE" value="45" desc_key="reqPlayerLevel45"/></level_requirements>
-            <level_requirements level="10"><requirement name="PlayerLevel" operation="GTE" value="50" desc_key="reqPlayerLevel50"/></level_requirements>
+        <attribute name="attSpecialSkills" name_key="attSpecialSkillsName" desc_key="attSpecialSkillsDesc" icon="icon_special_skills" min_level="0" max_level="10" override_cost="3,4,5,5,5,5,5,5,5,5">
+            <level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="50" desc_key="reqPlayerLevel50"/></level_requirements>
+            <level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="60" desc_key="reqPlayerLevel60"/></level_requirements>
+            <level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="70" desc_key="reqPlayerLevel70"/></level_requirements>
+            <level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="80" desc_key="reqPlayerLevel80"/></level_requirements>
+            <level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="90" desc_key="reqPlayerLevel90"/></level_requirements>
+            <level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="100" desc_key="reqPlayerLevel100"/></level_requirements>
+            <level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="110" desc_key="reqPlayerLevel110"/></level_requirements>
+            <level_requirements level="8"><requirement name="PlayerLevel" operation="GTE" value="120" desc_key="reqPlayerLevel120"/></level_requirements>
+            <level_requirements level="9"><requirement name="PlayerLevel" operation="GTE" value="130" desc_key="reqPlayerLevel130"/></level_requirements>
+            <level_requirements level="10"><requirement name="PlayerLevel" operation="GTE" value="140" desc_key="reqPlayerLevel140"/></level_requirements>
 
             <effect_group>
                 <effect_description level="1" desc_key="attSpecial01Desc" long_desc_key="attSpecial01LongDesc"/>
@@ -29,7 +29,7 @@
     </append>
 
     <append xpath="/progression/perks">
-        <perk name="perkCriticalRate" max_level="5" parent="attSpecialSkills" name_key="perkCriticalRateName" desc_key="perkCriticalRateDesc" icon="icon_critical_rate" override_cost="5,2,3,4,5" long_desc_key="KP_CURRENCY">
+        <perk name="perkCriticalRate" max_level="5" parent="attSpecialSkills" name_key="perkCriticalRateName" desc_key="perkCriticalRateDesc" icon="icon_critical_rate" override_cost="5,3,5,7,7" long_desc_key="KP_CURRENCY">
             <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
             <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
             <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
@@ -47,7 +47,7 @@
     </append>
 
     <append xpath="/progression/perks">
-        <perk name="perkCriticalMultiplier" max_level="5" parent="attSpecialSkills" name_key="perkCriticalMultiplierName" desc_key="perkCriticalMultiplierDesc" icon="icon_critical_Multiplier" override_cost="5,2,3,4,5" long_desc_key="KP_CURRENCY">
+        <perk name="perkCriticalMultiplier" max_level="5" parent="attSpecialSkills" name_key="perkCriticalMultiplierName" desc_key="perkCriticalMultiplierDesc" icon="icon_critical_Multiplier" override_cost="5,3,5,7,7" long_desc_key="KP_CURRENCY">
             <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
             <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
             <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
@@ -65,7 +65,7 @@
     </append>
 
     <append xpath="/progression/perks">
-        <perk name="perkReloadSpeed" max_level="5" parent="attSpecialSkills" name_key="perkReloadSpeedName" desc_key="perkReloadSpeedDesc" icon="icon_reload" override_cost="5,2,3,4,5" long_desc_key="KP_CURRENCY">
+        <perk name="perkReloadSpeed" max_level="5" parent="attSpecialSkills" name_key="perkReloadSpeedName" desc_key="perkReloadSpeedDesc" icon="icon_reload" override_cost="5,3,5,7,7" long_desc_key="KP_CURRENCY">
             <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
             <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
             <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
@@ -83,7 +83,7 @@
     </append>
 
     <append xpath="/progression/perks">
-        <perk name="perkMovementSpeed" max_level="5" parent="attSpecialSkills" name_key="perkMovementSpeedName" desc_key="perkMovementSpeedDesc" icon="icon_speed" override_cost="5,2,3,4,5" long_desc_key="KP_CURRENCY">
+        <perk name="perkMovementSpeed" max_level="5" parent="attSpecialSkills" name_key="perkMovementSpeedName" desc_key="perkMovementSpeedDesc" icon="icon_speed" override_cost="5,3,5,7,7" long_desc_key="KP_CURRENCY">
             <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
             <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
             <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
@@ -131,7 +131,7 @@
     </append>
 
     <append xpath="/progression/perks">
-        <perk name="perkJumpBoost" max_level="5" parent="attSpecialSkills" name_key="perkJumpBoostName" desc_key="perkJumpBoostDesc" icon="icon_jump" override_cost="5,2,3,4,5" long_desc_key="KP_CURRENCY">
+        <perk name="perkJumpBoost" max_level="5" parent="attSpecialSkills" name_key="perkJumpBoostName" desc_key="perkJumpBoostDesc" icon="icon_jump" override_cost="5,3,5,7,7" long_desc_key="KP_CURRENCY">
             <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
             <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
             <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
@@ -149,7 +149,7 @@
     </append>
 
     <append xpath="/progression/perks">
-        <perk name="perkMagazineSize" max_level="5" parent="attSpecialSkills" name_key="perkMagazineSizeName" desc_key="perkMagazineSizeDesc" icon="icon_magazine_size" override_cost="5,2,3,4,5" long_desc_key="KP_CURRENCY">
+        <perk name="perkMagazineSize" max_level="5" parent="attSpecialSkills" name_key="perkMagazineSizeName" desc_key="perkMagazineSizeDesc" icon="icon_magazine_size" override_cost="5,3,5,7,7" long_desc_key="KP_CURRENCY">
             <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
             <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
             <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
@@ -167,7 +167,7 @@
     </append>
 
     <!-- <append xpath="/progression/perks">
-        <perk name="perkLuck" max_level="5" parent="attSpecialSkills" name_key="perkLuckName" desc_key="perkLuckDesc" icon="icon_critical_rate" override_cost="5,2,3,4,5">
+        <perk name="perkLuck" max_level="5" parent="attSpecialSkills" name_key="perkLuckName" desc_key="perkLuckDesc" icon="icon_critical_rate" override_cost="5,3,5,7,7">
             <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
             <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
             <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>

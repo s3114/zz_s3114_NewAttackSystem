@@ -1,7 +1,7 @@
 <configs>
-<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel/grid[@cols=8]/@cols">10</set>
-<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel/grid[@cell_height=43]/@cell_height">37</set>
-<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel/grid[@cell_width=43]/@cell_width">37</set>
+<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel/grid[@cols=8]/@cols">150</set>
+<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel/grid[@cell_height=43]/@cell_height">30</set>
+<set xpath="/windows/window[@name='windowSkillList']/panel[@name='content']/rect[@name='categoryHeader']/panel/grid[@cell_width=43]/@cell_width">30</set>
 
 <remove xpath="/windows/window[@name='itemInfoPanel']" />
 
