@@ -30,11 +30,11 @@
 
     <append xpath="/progression/perks">
         <perk name="perkCriticalRate" max_level="5" parent="attSpecialSkills" name_key="perkCriticalRateName" desc_key="perkCriticalRateDesc" icon="icon_critical_rate" override_cost="5,3,5,7,7" long_desc_key="KP_CURRENCY">
-            <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
-            <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
-            <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
-            <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="9" desc_key="reqSpecialSkillsLevel09"/></level_requirements>
-            <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="10" desc_key="reqSpecialSkillsLevel10"/></level_requirements>
+            <level_requirements level="1"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
+            <level_requirements level="2"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
+            <level_requirements level="3"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
+            <level_requirements level="4"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="9" desc_key="reqSpecialSkillsLevel09"/></level_requirements>
+            <level_requirements level="5"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="10" desc_key="reqSpecialSkillsLevel10"/></level_requirements>
 
             <effect_group>
                 <effect_description level="1" desc_key="perkCriticalRate01Desc" long_desc_key="perkCriticalRate01LongDesc"/>
@@ -48,11 +48,11 @@
 
     <append xpath="/progression/perks">
         <perk name="perkCriticalMultiplier" max_level="5" parent="attSpecialSkills" name_key="perkCriticalMultiplierName" desc_key="perkCriticalMultiplierDesc" icon="icon_critical_Multiplier" override_cost="5,3,5,7,7" long_desc_key="KP_CURRENCY">
-            <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
-            <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
-            <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
-            <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="9" desc_key="reqSpecialSkillsLevel09"/></level_requirements>
-            <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="10" desc_key="reqSpecialSkillsLevel10"/></level_requirements>
+            <level_requirements level="1"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
+            <level_requirements level="2"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
+            <level_requirements level="3"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
+            <level_requirements level="4"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="9" desc_key="reqSpecialSkillsLevel09"/></level_requirements>
+            <level_requirements level="5"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="10" desc_key="reqSpecialSkillsLevel10"/></level_requirements>
 
             <effect_group>
                 <effect_description level="1" desc_key="perkCriticalMultiplier01Desc" long_desc_key="perkCriticalMultiplier01LongDesc"/>
@@ -66,11 +66,11 @@
 
     <append xpath="/progression/perks">
         <perk name="perkReloadSpeed" max_level="5" parent="attSpecialSkills" name_key="perkReloadSpeedName" desc_key="perkReloadSpeedDesc" icon="icon_reload" override_cost="5,3,5,7,7" long_desc_key="KP_CURRENCY">
-            <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
-            <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
-            <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
-            <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="9" desc_key="reqSpecialSkillsLevel09"/></level_requirements>
-            <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="10" desc_key="reqSpecialSkillsLevel10"/></level_requirements>
+            <level_requirements level="1"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
+            <level_requirements level="2"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
+            <level_requirements level="3"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
+            <level_requirements level="4"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="9" desc_key="reqSpecialSkillsLevel09"/></level_requirements>
+            <level_requirements level="5"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="10" desc_key="reqSpecialSkillsLevel10"/></level_requirements>
 
             <effect_group>
                 <effect_description level="1" desc_key="perkReloadSpeed01Desc" long_desc_key="perkReloadSpeed01LongDesc"/>
@@ -84,11 +84,11 @@
 
     <append xpath="/progression/perks">
         <perk name="perkMovementSpeed" max_level="5" parent="attSpecialSkills" name_key="perkMovementSpeedName" desc_key="perkMovementSpeedDesc" icon="icon_speed" override_cost="5,3,5,7,7" long_desc_key="KP_CURRENCY">
-            <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
-            <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
-            <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
-            <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="9" desc_key="reqSpecialSkillsLevel09"/></level_requirements>
-            <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="10" desc_key="reqSpecialSkillsLevel10"/></level_requirements>
+            <level_requirements level="1"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
+            <level_requirements level="2"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
+            <level_requirements level="3"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
+            <level_requirements level="4"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="9" desc_key="reqSpecialSkillsLevel09"/></level_requirements>
+            <level_requirements level="5"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="10" desc_key="reqSpecialSkillsLevel10"/></level_requirements>
 
             <effect_group>
                 <passive_effect name="WalkSpeed" operation="base_set" level="1" value="1.683"/>
@@ -132,11 +132,11 @@
 
     <append xpath="/progression/perks">
         <perk name="perkJumpBoost" max_level="5" parent="attSpecialSkills" name_key="perkJumpBoostName" desc_key="perkJumpBoostDesc" icon="icon_jump" override_cost="5,3,5,7,7" long_desc_key="KP_CURRENCY">
-            <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
-            <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
-            <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
-            <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="9" desc_key="reqSpecialSkillsLevel09"/></level_requirements>
-            <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="10" desc_key="reqSpecialSkillsLevel10"/></level_requirements>
+            <level_requirements level="1"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
+            <level_requirements level="2"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
+            <level_requirements level="3"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
+            <level_requirements level="4"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="9" desc_key="reqSpecialSkillsLevel09"/></level_requirements>
+            <level_requirements level="5"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="10" desc_key="reqSpecialSkillsLevel10"/></level_requirements>
 
             <effect_group>
                 <effect_description level="1" desc_key="perkJumpBoost01Desc" long_desc_key="perkJumpBoost01LongDesc"/>
@@ -150,11 +150,11 @@
 
     <append xpath="/progression/perks">
         <perk name="perkMagazineSize" max_level="5" parent="attSpecialSkills" name_key="perkMagazineSizeName" desc_key="perkMagazineSizeDesc" icon="icon_magazine_size" override_cost="5,3,5,7,7" long_desc_key="KP_CURRENCY">
-            <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
-            <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
-            <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
-            <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="9" desc_key="reqSpecialSkillsLevel09"/></level_requirements>
-            <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="10" desc_key="reqSpecialSkillsLevel10"/></level_requirements>
+            <level_requirements level="1"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
+            <level_requirements level="2"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
+            <level_requirements level="3"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
+            <level_requirements level="4"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="9" desc_key="reqSpecialSkillsLevel09"/></level_requirements>
+            <level_requirements level="5"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="10" desc_key="reqSpecialSkillsLevel10"/></level_requirements>
 
             <effect_group>
                 <effect_description level="1" desc_key="perkMagazineSize01Desc" long_desc_key="perkMagazineSize01LongDesc"/>
@@ -168,11 +168,11 @@
 
     <!-- <append xpath="/progression/perks">
         <perk name="perkLuck" max_level="5" parent="attSpecialSkills" name_key="perkLuckName" desc_key="perkLuckDesc" icon="icon_critical_rate" override_cost="5,3,5,7,7">
-            <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
-            <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
-            <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
-            <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="9" desc_key="reqSpecialSkillsLevel09"/></level_requirements>
-            <level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attSpecialSkills" operation="GTE" value="10" desc_key="reqSpecialSkillsLevel10"/></level_requirements>
+            <level_requirements level="1"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="2" desc_key="reqSpecialSkillsLevel02"/></level_requirements>
+            <level_requirements level="2"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="5" desc_key="reqSpecialSkillsLevel05"/></level_requirements>
+            <level_requirements level="3"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="7" desc_key="reqSpecialSkillsLevel07"/></level_requirements>
+            <level_requirements level="4"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="9" desc_key="reqSpecialSkillsLevel09"/></level_requirements>
+            <level_requirements level="5"><requirement name="s3114_killPoints" progression_name="attSpecialSkills" operation="GTE" value="10" desc_key="reqSpecialSkillsLevel10"/></level_requirements>
 
             <effect_group>
                 <effect_description level="1" desc_key="perkLuck01Desc" long_desc_key="perkLuck01LongDesc"/>
