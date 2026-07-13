@@ -9,7 +9,7 @@
 
 
 
-<append xpath="/windows/window[@name='windowSkillList']/panel[@name='header']">
+<append xpath="/windows/window[@name='windowSkillList']/rect[@name='header']">
     <rect controller="XUiC_KillPointsLabel, s3114_NewPassiveEffect" visible="{iskpcategoryvisible}">
         <label pos="635, -55" depth="2" width="300" height="28" text="{killpoints}" font_size="26" justify="right" pivot="topright"/>
     </rect>
@@ -38,14 +38,14 @@
 			</rect>
 
 			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,-130" width="153" height="216" color="[black]" type="sliced" fillcenter="false" />
-			<rect pos="3,-133" width="147" height="100%" visible="{shownormaloptions}" >
-				<grid name="itemActions" rows="5" cols="1" pos="0,0" width="147" height="100%" cell_width="147" cell_height="42" controller="ItemActionList"
+			<rect pos="3,-133" width="147" height="213" visible="{shownormaloptions}" >
+				<grid name="itemActions" rows="5" cols="1" pos="0,0" width="147" height="213" cell_width="147" cell_height="42" controller="ItemActionList"
 					repeat_content="true" visible="false">
 					<item_action_entry />
 				</grid>
 			</rect>
 
-			<rect pos="3,-132" width="147" height="100%" visible="{showtraderoptions}" >
+			<rect pos="3,-132" width="147" height="213" visible="{showtraderoptions}" >
 				<sprite color="[mediumGrey]" type="sliced" height="44" />
 				<rect name="counterControl" width="120" height="42" pos="27,0" controller="Counter">
 					<button depth="2" name="countDown" style="icon30px, press, held" pos="-10,-20" sprite="ui_game_symbol_arrow_left" pivot="center" sound="[paging_click]"/>
@@ -53,7 +53,7 @@
 					<button depth="2" name="countUp" style="icon30px, press, held" pos="64,-20" sprite="ui_game_symbol_arrow_right" pivot="center" sound="[paging_click]"/>
 					<button depth="2" name="countMax" style="icon30px, press" pos="96,-20" sprite="ui_game_symbol_arrow_max" pivot="center" sound="[paging_click]"/>
 				</rect>
-				<grid name="vendorItemActions" rows="4" cols="1" pos="0,-43" width="147" height="100%" cell_width="147" cell_height="42" controller="ItemActionList"
+				<grid name="vendorItemActions" rows="4" cols="1" pos="0,-43" width="147" height="213" cell_width="147" cell_height="42" controller="ItemActionList"
 					repeat_content="true" visible="false">
 					<item_action_entry />
 				</grid>
